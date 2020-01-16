@@ -1,0 +1,8 @@
+#!/bin/sh
+#while
+#	true; do
+# feh --bg-fill "$(find "$HOME/Dropbox/Media/Wallpapers/" -type f -name '*.jpg' -o -name '*.png' | shuf -n 1)"
+#	feh --bg-fill "$HOME/Pictures/wallpapers/nebula.jpg"
+#	sleep 30m
+#done &
+feh --bg-fill "$HOME/Pictures/wallpapers/nebula.jpg"

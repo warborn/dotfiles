@@ -1,0 +1,19 @@
+- clean: ['~']
+
+- link:
+    ~/.gitconfig: gitconfig
+    ~/.tmux.conf: tmux.conf
+    ~/.zshrc: zshrc
+    ~/bin:
+        path: bin/
+        create: true
+    ~/.Xresources: Xresources
+    ~/.xinitrc: xinitrc
+    ~/.i3:
+        path: i3/
+        create: true
+    ~/.config/i3:
+        path: config/i3/
+        create: true
+
+

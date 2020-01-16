@@ -1,0 +1,8 @@
+#!/bin/sh
+current_lang=$(setxkbmap -v | awk -F "+" '/symbols/ {print $2}')
+if [ "$current_lang" = "latam" ]
+then
+ setxkbmap us
+else
+ setxkbmap latam
+fi

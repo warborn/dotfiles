@@ -1,0 +1,8 @@
+[user]
+	name = Iván Munguía
+	email = ivanalejandro249@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
