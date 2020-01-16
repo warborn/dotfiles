@@ -19,3 +19,4 @@
     ~/.config/alacritty:
       path: config/alacritty/
       create: true
+    ~/.tool-versions: tool-versions
