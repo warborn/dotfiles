@@ -4,6 +4,7 @@
     ~/.gitconfig: gitconfig
     ~/.tmux.conf: tmux.conf
     ~/.zshrc: zshrc
+    ~/.zsh_plugins.txt: zsh_plugins.txt
     ~/bin:
       path: bin/
       create: true
