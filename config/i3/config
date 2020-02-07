@@ -143,4 +143,4 @@ gaps inner 15
 gaps outer 0
 smart_gaps on
 exec ~/bin/setbg
-# exec --no-startup-id picom --config ~/.config/picom/picom.conf --respect-prop-shadow
+exec --no-startup-id picom --config ~/.config/picom/picom.conf
