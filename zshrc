@@ -10,3 +10,7 @@ autoload -Uz compinit && compinit
 . /opt/asdf-vm/asdf.sh
 
 . /opt/asdf-vm/completions/asdf.bash
+
+bindkey "^[[1~" beginning-of-line
+bindkey "^[[4~" end-of-line
+
