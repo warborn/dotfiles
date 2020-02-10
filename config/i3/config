@@ -33,7 +33,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+w kill
 
 # start program launcher
-# bindsym $mod+d exec --no-startup-id dmenu_recency
+bindsym $mod+d exec --no-startup-id dmenu_run
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
@@ -97,7 +97,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # workspace back and forth (with/without active container)
-workspace_auto_back_and_forth yes
+# workspace_auto_back_and_forth yes
 bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
@@ -181,6 +181,7 @@ bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 
 # Open applications on specific workspaces
 # assign [class="Thunderbird"] $ws1
@@ -435,7 +436,7 @@ exec --no-startup-id picom --config ~/.config/picom/picom.conf
 
 set $mod Mod4
 set $Alt Mod1
-bindsym $mod+d exec --no-startup-id appsmenu
+# bindsym $mod+d exec --no-startup-id appsmenu
 # bindsym $mod+l exec --no-startup-id i3layoutmenu
 # bindsym $mod+m exec --no-startup-id mpdmenu
 # bindsym $mod+n exec --no-startup-id networkmenu
